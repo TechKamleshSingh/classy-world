@@ -73,6 +73,9 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       }
     },
+    backgroundImage: {
+      // 'my_bg_image' : "url('1.jpg')",
+    },
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config

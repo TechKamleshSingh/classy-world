@@ -9,7 +9,7 @@ export default function login() {
         {
             !resetPassword && 
            <form action="" className='form-black w-full h-auto p-5 flex justify-center items-center flex-col gap-3 '>
-        <h3 className=' text-white w-[97%] md:w-[50%] text-center p-3'>Login Your Exits Account</h3>
+        <h3 className='text-blue-700 font-extrabold md:text-2xl text-sm w-[97%] md:w-[50%] text-center p-3'>Login From Your Exits Account</h3>
         <input type="email" name="email" placeholder='Enter Your Register Email'  className='w-[97%] md:w-[50%] p-2  font-bold outline-none border-solid focus:border-b-2 border-black'/>
       <input type="password" placeholder='Enter Your Created Password ' className='w-[97%] md:w-[50%] p-2  font-bold outline-none border-solid focus:border-b-2 border-black'/>
       <Button>Login Now</Button>

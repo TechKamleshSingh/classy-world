@@ -23,6 +23,7 @@ import ProBanner from "@/components/slider/proBanner";
 import RelBanner from "@/components/slider/relBanner";
 import NewBanner from "@/components/slider/newBanner";
 import TrendBanner from "@/components/slider/trendBanner";
+import Link from "next/link";
 export default function Home() {
   return (
     <>
@@ -31,10 +32,12 @@ export default function Home() {
       <hr />
       <div className="service-box w-full mt-1 px-1 py-2 md:px-5">
         <div className=" grid md:grid-flow-col grid-cols-4 gap-5 bg-zinc-100 md:p-3 p-3 w-full h-32 place-content-center place-items-center rounded-md ring ring-blue-200">
+        <Link href='/allcollection'>
           <div className="hover:bg-slate-300 cursor-pointer rounded-md item w-16 md:w-32 md:h-20 p-1 flex justify-center items-center flex-col gap-2 md:gap-3 shadow shadow-xs">
             <MdCollections />
             <div className="title text-red-500 md:text-xl text-xs capitalize">lorem</div>
           </div>
+          </Link>
           <div className="hover:bg-slate-300 cursor-pointer rounded-md item w-16 md:w-32 md:h-20 p-1 flex justify-center items-center flex-col gap-2 md:gap-3 shadow shadow-xs">
             <FaGift />
             <div className="title text-red-500 md:text-xl text-xs capitalize">lorem</div>
@@ -156,7 +159,8 @@ export default function Home() {
         </div>
       </div>
 
-      <h3 className=" p-3 ml-4 text-3xl font-bold">Collaboration</h3>
+      <h3 className=" p-1 ml-4 text-xl font-bold">Collaboration</h3>
+      <hr />
       <hr className="p-2" />
       <div className="collaboration w-full h-auto p-3 flex-wrap md:flex-nowrap flex gap-3 justify-center items-center">
         <div className="image-box w-full md:w-96 h-40 sm:h-52 md:h-96  rounded-2xl relative">
